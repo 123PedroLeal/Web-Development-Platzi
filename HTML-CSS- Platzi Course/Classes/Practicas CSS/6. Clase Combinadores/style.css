@@ -1,0 +1,25 @@
+/* Primer Combinador "Hermano cercano": Todas las etiquetas p que esten debajo de un h2 hazlas de color rojo. */
+/* h2 + p
+{
+    color: red;
+}  */
+
+/*Segundo Combinador "Hermano general": Todas las etiquetas p que esten dentro del mismo renglon y debajo del h2 se pintan de rojo */
+/*h2 ~ p
+{
+    color: red;
+} */
+
+/* Tercer Combinador "Hijo": Todas las etiquetas p que esten directamente dentro de un div, es decir que no esten dentro de otra 
+   etiqueta como section o header, etc son las que se van a pintar de rojo  */
+/* div > p
+{
+    color: red;
+} */
+
+/* Cuarto Combinador "Descendiente": Todas las etiquetas p que esten directamente dentro de un div se van a pintar de rojo esten 
+dentro de otra etiqueta o no */
+/* div p
+{
+    color: red;
+} */

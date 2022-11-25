@@ -1,0 +1,24 @@
+body
+{
+    font-size: 20px;
+}
+
+/* La medida em es una medida relativa al tamaño de fuente del html que sea superior a la clase empleada,
+por lo tanto va a tomar el valor de la medida de la etiqueta que sea superior a ella */
+
+/* Para calcular la medida de estos rem se usa la fuente base de la etiqueta body que en este caso la 
+fijamos en 20 px por lo tanto la fuente del primer text container sera 20+ 10 que es la mitad de 20 
+y en el siguiente caso el text container que se encuentra dentro del div va a tomar esa nueva medida por
+lo tanto ese 30px de antes multiplicado por 1.5 da 45px como la nueva medida.*/
+
+/* Ese es el problema de los Em que son medidas que dependen uno del superior y hace muy facil perder la 
+proporción de las medidas de algun objeto en caso de que hagamos algún cambio en la interfaz.*/
+.text-container
+{
+    font-size: 1.5em;
+}
+
+.text-container div
+{
+    font-size: 1.5em;
+}

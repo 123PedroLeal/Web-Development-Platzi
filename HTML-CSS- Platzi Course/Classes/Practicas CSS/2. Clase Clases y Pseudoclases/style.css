@@ -1,0 +1,43 @@
+/* Todas las instrucciones en CSS son reglas */
+/* Metodología BEM (Bloque, Elemento, Modificador) */
+
+.main-nav
+{
+ margin-top: 10px;
+ list-style: none;
+ padding-left: 0px; 
+ background-color: blue;
+}
+
+.main-nav__item
+{
+ display: inline-block;
+}
+
+.main-nav__item a 
+{
+ color: white;
+ padding: 5px;
+ border-radius: 2px;
+ text-decoration: none;
+}
+
+/* Pseudo Clases*/
+
+/* hover quiere decir que cuando el mouse esta sobre ese elemento se activa ese estilo o propiedad */
+.main-nav__item a:hover
+{
+    color: black;
+}
+
+/* active quiere decir que cuando le doy click se activa esa propiedad en la pagina. */
+.main-nav__item a:active
+{
+    color: red;
+}
+
+/* Pseudo Elemento */
+.main-nav__item a::after
+{
+    content: " | ";
+}

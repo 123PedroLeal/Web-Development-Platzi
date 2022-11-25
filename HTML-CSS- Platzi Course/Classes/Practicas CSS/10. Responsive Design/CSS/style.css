@@ -1,0 +1,85 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+.contenedor
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.C1, .C2, .C3, .C4, .C5
+{
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+
+.C1
+{
+    background-color: blue;
+}
+
+.C2
+{
+    background-color: red;
+}
+
+.C3
+{
+    background-color: green;
+}
+
+.C4
+{
+    background-color: yellow;
+}
+
+.C5
+{
+    background-color: purple;
+}
+
+/* Los Breakpoints del viewport usualmente deben ir al fondo del documento.*/
+
+/* @media (min-width: 600px)
+{
+    .C2, .C3, .C4
+    {
+        width: 50%;
+    }
+} */
+
+/* @media (min-width: 800px)
+{
+    .contenedor
+    {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .C1
+    {
+        width: 60%;
+    }
+    .C2
+    {
+        width: 40%;
+    }
+    .C3, .C4
+    {
+        width: 33%;
+    }
+    .C5
+    {
+        width: 34%;
+    }
+} */

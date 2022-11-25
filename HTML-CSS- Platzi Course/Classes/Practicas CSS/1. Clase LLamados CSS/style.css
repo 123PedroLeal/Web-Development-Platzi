@@ -1,0 +1,21 @@
+/* Forma 3: Llamarlo desde un archivo CSS aparte la mejor practica y desde aqui se ven los tipos de llamados:*/
+
+/*1. por etiqueta*/
+p
+{
+ color: blue;
+ font-size: 40px;
+}
+
+/*2. por clase o "class" */
+.parrafo
+{
+    color: blueviolet;
+    font-size: 50px;
+}
+/*3. por Identificación o "ID" */
+#texto
+{
+    color: red;
+    font-size: 70px;
+}

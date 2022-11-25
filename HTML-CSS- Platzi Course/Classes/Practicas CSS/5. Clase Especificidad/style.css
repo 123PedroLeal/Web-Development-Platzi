@@ -1,0 +1,76 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    color: purple;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+
+/* PRIMERA NOTA IMPORTANTE: Las reglas por ID son más importnates que las reglas hechas por clase,
+   sin embargo las reglas de diseño hechas por ID son mala practica debido
+   a que hacen más dificil el cambiar los estilos dento del css */
+
+/* Comentamos este ID porque sobreesribe la clase title que esta mas abajo.
+   #page-title
+   {
+        font-family: Arial, Helvetica, sans-serif;
+    } */
+
+/* SEGUNDA NOTA IMPORTANTE::Comentamos esta parte debido a que es la mala practica de los ID
+    #main-nav
+    {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+    }
+    #main-nav li
+    {
+    display: inline-block;
+    }
+    #main-nav a
+    {
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    }
+    #main-nav .Blog
+    {
+    background-color: red;
+    } 
+*/
+
+.nav
+{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav li
+{
+    display: inline-block;
+}
+.nav a
+{
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+/* Forma de cambiar una ventana unica diferente de las otras  */
+.nav .Blog
+{
+    background-color: red;
+}
+.title
+{
+    font-size: 18px;
+    font-family: monospace;
+}

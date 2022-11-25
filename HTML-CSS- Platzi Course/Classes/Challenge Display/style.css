@@ -1,0 +1,203 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html
+{
+    font-size: 62,5%;
+    background-color: white;
+}
+
+.Cabecera
+{
+    width: 80rem;
+    height: 7rem;
+    background-color:#1c3b81;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: inline-block;
+}
+
+.vertical 
+{
+    border-left: 0.18rem solid  #fbbb04;
+    height: 36rem;
+    display: inline-block;
+
+    position: absolute;
+    bottom: 0rem;
+    left: 23.7rem;
+}
+
+.LogoR
+{
+    width: 6rem;
+    height: 6rem;
+    display: inline block;
+
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
+}
+
+.LogoUser
+{
+    width: 6rem;
+    height: 6rem;
+    display: inline block;
+
+    position: absolute;
+    left:33rem;
+    bottom:14.6rem;
+}
+
+.LogoSearch
+{
+    width: 6rem;
+    height: 6rem;
+    display: inline block;
+
+    position: absolute;
+    left:36.5rem;
+    bottom:14.6rem;
+}
+
+.Cabecera h1
+{
+    position: absolute;
+    display: inline-block;
+    left: 7.9rem;
+    bottom: 32rem;
+}
+
+.Cabecera h2
+{
+    position: absolute;
+    display: inline-block;
+    left: 7.9rem;
+    bottom: 30.2rem;
+}
+
+.Cabecera nav
+{
+    display: inline-block;
+    position: absolute;
+    bottom: 31rem;
+    left: 25rem;
+}
+
+.Cabecera li
+{
+    text-align: center;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.bloque-camisas
+{
+    width: 22rem;
+    height: 8rem;
+    background-color: white;
+    border-radius: 2rem;
+    border: 0.2rem solid #1c3b81;
+
+    position:absolute;
+    bottom: 20rem;
+    left: 0.5rem;
+}
+
+.bloque-shorts
+{
+    width: 22rem;
+    height: 8rem;
+    background-color: white;
+    border-radius: 2rem;
+    border: 0.2rem solid #1c3b81;
+
+    position:absolute;
+    bottom: 11rem;
+    left: 0.5rem;
+}
+
+.bloque-zapatos
+{
+    width: 22rem;
+    height: 8rem;
+    background-color: white;
+    border-radius: 2rem;
+    border: 0.2rem solid #1c3b81;
+    
+    position:absolute;
+    bottom: 2rem;
+    left: 0.5rem;
+}
+
+.bloques-camisas h1
+{
+    position: absolute;
+    color: #1c3b81;
+    bottom: 25rem;
+    left: 25.5rem;
+}
+
+.bloques-camisas .local
+{
+    position: absolute;
+    bottom: 2rem;
+    left: 25rem;
+    
+    width: 12.5rem;
+    height: 22rem;
+    border-radius: 2rem;
+    border: 0.2rem solid #1c3b81;
+}
+
+.bloques-camisas .visitante
+{
+    position: absolute;
+    bottom: 2rem;
+    left: 39rem;
+    
+    width: 12.5rem;
+    height: 22rem;
+    border-radius: 2rem;
+    border: 0.2rem solid #1c3b81;
+}
+
+.bloques-camisas .alternativa
+{
+    position: absolute;
+    bottom: 2rem;
+    left: 53rem;
+    
+    width: 12.5rem;
+    height: 22rem;
+    border-radius: 2rem;
+    border: 0.2rem solid #1c3b81;
+}
+
+.bloques-camisas .portero
+{
+    position: absolute;
+    bottom: 2rem;
+    left: 67rem;
+    
+    width: 12.5rem;
+    height: 22rem;
+    border-radius: 2rem;
+    border: 0.2rem solid #1c3b81;
+}

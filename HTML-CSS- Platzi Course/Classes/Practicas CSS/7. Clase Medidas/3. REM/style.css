@@ -1,0 +1,21 @@
+/* Instrucción para setear la medida base de html que es 16px a el 62.5% de eso que son 10px haciendo que
+10 px sean igual a un 1rem para que el calculo de las proporciones sean más faciles. */
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62,5%;
+}
+p
+{
+    font-size: 1.6rem;
+}
+main div
+{
+    font-size: 1.6rem;
+}

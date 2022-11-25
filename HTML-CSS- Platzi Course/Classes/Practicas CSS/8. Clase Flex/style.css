@@ -1,0 +1,57 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body
+{
+    font-size: 2rem;
+}
+
+.contenedor
+{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+
+.Caja
+{
+    width: 10rem;
+    height: 10rem;
+}
+
+.Caja1
+{
+    background-color: blue;
+}
+
+.Caja2
+{
+    background-color: green;
+}
+
+.Caja3
+{
+    background-color: yellow;
+}
+
+.Caja4
+{
+    background-color: red;
+}
+
+.Caja5
+{
+    background-color: papayawhip;
+}
